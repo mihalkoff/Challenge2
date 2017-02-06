@@ -1,0 +1,38 @@
+html, body, header, h2, h3, div, p, button {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: block;
+}
+
+.clearfix {
+	min-height: 0;
+	_zoom: 1;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#header {
+	background-color: #0F2D52;
+	width: auto;
+	height: auto;
+	color: white;
+	/*font: bold 14px/14px "Times New Roman", monoscript;*/
+}
+
+#box-1, #box-2 {
+	position: relative;
+	width: 500px;
+	float: left;
+}
+
+#content {
+	margin: 0 auto;
+	width: 960px;
+}
