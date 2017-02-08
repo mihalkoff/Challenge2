@@ -19,13 +19,16 @@ header, details, section, article, img {
 	display: block;
 }
 
+#site-wrapper {
+	font: 14px/14px "Times New Roman", serif;
+}
+
 #header {
 	background-color: #0F2D52;
 	width: auto;
 	height: auto;
 	padding: 40px 0;
 	color: white;
-	/*font: bold 14px/14px "Times New Roman", monoscript;*/
 }
 
 #header-boxes, #content {
@@ -33,14 +36,19 @@ header, details, section, article, img {
 	width: 800px;
 }
 
-#header-boxes #box-1, #header-boxes #box-2 {
-	width: 340px;
-	height: 100px;
-	float: left;
+#header-boxes h3 {
+	font: bold 16px/16px "Georgia", serif;
 }
 
-#header-boxes #box-2  {
-	margin-left: 20px;
+#header-boxes p {
+	font: 13px/18px "Calibri", sans-serif;
+}
+
+#header-boxes #box-1, #header-boxes #box-2 {
+	width: 360px;
+	height: 85px;
+	float: left;
+	margin-left: 35px;
 }
 
 #header-boxes #box-1 div, #header-boxes #box-2 div {
@@ -48,8 +56,8 @@ header, details, section, article, img {
 }
 
 img {
-	width:70px;
-	height:71px;
+	width:80px;
+	height:81px;
 	float: left;
 }
 
@@ -57,36 +65,45 @@ img {
 	float: left;
 	width: 140px;
 	text-align: right;
+	margin-top: 5px;
+	font: 13px/18px "Calibri", sans-serif;
 }
 
 a {
 	text-decoration: none;
+	font-weight: bold;
 }
 
 section {
 	margin-top: 40px;
 }
 
-article p {
-	margin: 20px 0;
-}
-
 article {
 	float: left;
 	width: 610px;
 	margin-left: 20px;
-	padding-left: 20px;
+	padding: 5px 0 5px 20px;
+	background: url("../img/line.png") no-repeat left center;
+}
+
+article h2 {
+	font: bold 18px/18px "Georgia", serif;
+}
+
+article p {
+	margin: 20px 0;
+	font: 16px/22px "Georgia", serif;
 }
 
 button {
 	background-color: #006FBF;
 	border: none;
-	border-radius: 8px;
+	border-radius: 3px;
     color: white;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
     cursor: pointer;
+	font: bold 12px/12px "Arial", sans-serif;
 }
